@@ -1,0 +1,18 @@
+{
+  "name": "festival-passport",
+  "version": "1.0.0",
+  "description": "Convert the .xls to Airtable importable CSV",
+  "main": "index.js",
+  "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-stage-0": "^6.24.1",
+    "date-fns": "^2.0.0-alpha.1",
+    "xlsx": "^0.10.5"
+  }
+}
